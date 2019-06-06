@@ -1,0 +1,38 @@
+{
+  "name": "timbers",
+  "version": "1.0.0",
+  "description": "Shiver me timbers! A tool to map short CLI argument to long CLI arguments",
+  "main": "index.js",
+  "scripts": {
+    "test:runner": "mocha test.js",
+    "test": "nyc --reporter=text --reporter=json-summary npm run test:runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/3rd-Eden/timbers.git"
+  },
+  "keywords": [
+    "shiver",
+    "me",
+    "timbers",
+    "argh",
+    "cli",
+    "arguments",
+    "arg",
+    "parsing",
+    "flags",
+    "short",
+    "long"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3rd-Eden/timbers/issues"
+  },
+  "homepage": "https://github.com/3rd-Eden/timbers#readme",
+  "devDependencies": {
+    "assume": "^2.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  }
+}
